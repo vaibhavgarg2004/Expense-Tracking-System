@@ -44,9 +44,6 @@ An interactive expense tracking system built with **Streamlit** for the frontend
 - **requirements.txt**: Lists the required Python packages.
 - **README.md**: Provides an overview and instructions for the project.
 
-## 📄 License
-This project is open source and available under the [MIT License](LICENSE).
-
 ---
 Built with ❤️ using Streamlit and FastAPI
 
