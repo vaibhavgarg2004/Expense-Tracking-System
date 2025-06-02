@@ -49,13 +49,13 @@ An interactive expense tracking system built with **Streamlit** for the frontend
 Here are some screenshots of the application in action:
 
 ### 🔹 Add/Update Expenses Tab
-![Add/Update](add_update.png)
+![Add/Update](add-update-tab.png)
 
 ### 🔹 Analytics by Category
-![Category Analytics](category_analytics.png)
+![Category Analytics](Analytics-By-Category-Tab.png)
 
 ### 🔹 Analytics by Month
-![Monthly Analytics](month_analytics.png)
+![Monthly Analytics](Analytics-By-Month-Tab.png)
 
 ---
 Built with ❤️ using Streamlit and FastAPI
