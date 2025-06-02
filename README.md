@@ -49,7 +49,7 @@ An interactive expense tracking system built with **Streamlit** for the frontend
 Here are some screenshots of the application in action:
 
 ### 🔹 Add/Update Expenses Tab
-![Add/Update](Add-Update_-ab.png)
+![Add/Update](Add-Update-Tab.png)
 
 ### 🔹 Analytics by Category
 ![Category Analytics](Analytics-By-Category-Tab.png)
