@@ -44,6 +44,19 @@ An interactive expense tracking system built with **Streamlit** for the frontend
 - **requirements.txt**: Lists the required Python packages.
 - **README.md**: Provides an overview and instructions for the project.
 
+## 🖼️ Project Snapshots
+
+Here are some screenshots of the application in action:
+
+### 🔹 Add/Update Expenses Tab
+![Add/Update](add_update.png)
+
+### 🔹 Analytics by Category
+![Category Analytics](category_analytics.png)
+
+### 🔹 Analytics by Month
+![Monthly Analytics](month_analytics.png)
+
 ---
 Built with ❤️ using Streamlit and FastAPI
 
