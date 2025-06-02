@@ -36,7 +36,7 @@ An interactive expense tracking system built with **Streamlit** for the frontend
     streamlit run frontend/app.py
    ```
 
-## Project Structure
+## 📂 Project Structure
 
 - **frontend/**: Contains the Streamlit application code.
 - **backend/**: Contains the FastAPI backend server code.
