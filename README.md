@@ -29,7 +29,7 @@ An interactive expense tracking system built with **Streamlit** for the frontend
    ```
 3. **Run the FastAPI server:**:   
    ```commandline
-    uvicorn server.server:app --reload
+    uvicorn backend.server:app --reload
    ```
 4. **Run the Streamlit app:**:   
    ```commandline

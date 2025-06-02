@@ -188,3 +188,17 @@
 2025-06-03 00:38:13,404 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-05
 2025-06-03 00:38:15,494 - db_helper - INFO - fetch_expense_summary called with start: 2024-08-01 end: 2024-08-05
 2025-06-03 00:38:17,583 - db_helper - INFO - fetch_expense_summary_by_months
+2025-06-03 01:25:06,473 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-06-03 01:25:08,546 - db_helper - INFO - fetch_expense_summary_by_months
+2025-06-03 01:25:12,955 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-06-03 01:25:15,039 - db_helper - INFO - fetch_expense_summary called with start: 2024-08-01 end: 2024-08-05
+2025-06-03 01:25:17,146 - db_helper - INFO - fetch_expense_summary_by_months
+2025-06-03 01:25:26,313 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-05
+2025-06-03 01:25:27,649 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-05
+2025-06-03 01:25:29,717 - db_helper - INFO - delete_expenses_for_date called with 2024-08-05
+2025-06-03 01:25:29,717 - db_helper - INFO - insert_expense called with date: 2024-08-05, amount: 200.0, category: Rent, notes: Shared rent payment
+2025-06-03 01:25:29,733 - db_helper - INFO - insert_expense called with date: 2024-08-05, amount: 40.0, category: Food, notes: Snacks
+2025-06-03 01:25:29,749 - db_helper - INFO - insert_expense called with date: 2024-08-05, amount: 75.0, category: Entertainment, notes: Theater tickets
+2025-06-03 01:25:29,749 - db_helper - INFO - insert_expense called with date: 2024-08-05, amount: 100.0, category: Shopping, notes: Books
+2025-06-03 01:25:29,765 - db_helper - INFO - insert_expense called with date: 2024-08-05, amount: 15.0, category: Other, notes: Miscellaneous
+2025-06-03 01:25:31,819 - db_helper - INFO - fetch_expense_summary_by_months
