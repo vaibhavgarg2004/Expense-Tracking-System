@@ -19,6 +19,7 @@ An interactive expense tracking system built with **Streamlit** for the frontend
 ## 🚀 How to Run Locally  
 ### Prerequisites:  
 - Python 3.7+
+- MySQL Server 8.0+
 
 1. **Clone the repository**:
    ```bash
@@ -29,11 +30,16 @@ An interactive expense tracking system built with **Streamlit** for the frontend
    ```commandline
     pip install -r requirements.txt
    ```
-3. **Run the FastAPI server:**:   
+3. **Set up the MySQL database:**: 
+   Make sure MySQL is running, then import the schema:
+   ```commandline
+    mysql -u <your-username> -p < database/expense_db_creation.sql
+   ```
+4. **Run the FastAPI server:**:   
    ```commandline
     uvicorn backend.server:app --reload
    ```
-4. **Run the Streamlit app:**:   
+5. **Run the Streamlit app:**:   
    ```commandline
     streamlit run frontend/app.py
    ```
@@ -42,7 +48,7 @@ An interactive expense tracking system built with **Streamlit** for the frontend
 
 - **frontend/**: Contains the Streamlit application code.
 - **backend/**: Contains the FastAPI backend server code.
-- **database**: Contains the database for the application.
+- **database/**: Contains the SQLite database file for the application.
 - **tests/**: Contains the test cases for backend.
 - **requirements.txt**: Lists the required Python packages.
 - **README.md**: Provides an overview and instructions for the project.
