@@ -34,11 +34,13 @@ An interactive expense tracking system built with **Streamlit** for the frontend
 
    - Make sure **MySQL Server** is installed and running  
    - Import the schema and sample data using:
+
      ```commandline
      mysql -u <your-username> -p < database/expense_db_creation.sql
      ```
    - **Update your MySQL credentials**:  
      Open the file `backend/db_helper.py` and update the following variables with your MySQL username and password:
+     
      ```python
      user = "your_mysql_username"
      password = "your_mysql_password"
