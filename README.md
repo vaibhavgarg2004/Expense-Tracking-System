@@ -19,7 +19,7 @@ An interactive expense tracking system built with **Streamlit** for the frontend
 ## 🚀 How to Run Locally  
 ### Prerequisites:  
 - Python 3.7+
-- MySQL Server 8.0+
+- MySQL 8.0+
 
 1. **Clone the repository**:
    ```bash
