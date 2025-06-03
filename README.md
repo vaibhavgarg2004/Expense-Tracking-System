@@ -31,8 +31,7 @@ An interactive expense tracking system built with **Streamlit** for the frontend
     pip install -r requirements.txt
    ```
 3. **Set up the MySQL database**
-
-   - Make sure **MySQL Server** is installed and running  
+ 
    - **Import the schema and sample data:**
 
      Open **MySQL Workbench**, connect to your MySQL server, and use the following steps to import the database schema:
@@ -40,7 +39,7 @@ An interactive expense tracking system built with **Streamlit** for the frontend
       1. Go to **File > Open SQL Script**.
       2. Navigate to the SQL file located at `database/expense_db_creation.sql` in the project folder.
       3. Open the file, then click the **Execute** button (⚡) to run the script and create the database with sample data.
-      
+
    - **Update your MySQL credentials**:  
      Open the file `backend/db_helper.py` and update the following variables with your MySQL username and password:
      
