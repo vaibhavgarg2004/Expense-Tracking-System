@@ -26,20 +26,28 @@ An interactive expense tracking system built with **Streamlit** for the frontend
    git clone https://github.com/vaibhavgarg2004/Expense-Tracking-System.git
    cd expense-management-system
    ```
-2. **Install dependencies:**:   
+2. **Install dependencies**:   
    ```commandline
     pip install -r requirements.txt
    ```
-3. **Set up the MySQL database:**: 
-   Make sure MySQL is running, then import the schema:
-   ```commandline
-    mysql -u <your-username> -p < database/expense_db_creation.sql
-   ```
-4. **Run the FastAPI server:**:   
+3. **Set up the MySQL database**
+
+   - Make sure **MySQL Server** is installed and running  
+   - Import the schema and sample data using:
+     ```commandline
+     mysql -u <your-username> -p < database/expense_db_creation.sql
+     ```
+   - **Update your MySQL credentials**:  
+     Open the file `backend/db_helper.py` and update the following variables with your MySQL username and password:
+     ```python
+     user = "your_mysql_username"
+     password = "your_mysql_password"
+     ```
+4. **Run the FastAPI server**:   
    ```commandline
     uvicorn backend.server:app --reload
    ```
-5. **Run the Streamlit app:**:   
+5. **Run the Streamlit app**:   
    ```commandline
     streamlit run frontend/app.py
    ```
