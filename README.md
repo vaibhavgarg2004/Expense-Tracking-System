@@ -11,7 +11,9 @@ An interactive expense tracking system built with **Streamlit** for the frontend
 - REST API backend powered by FastAPI  
 - Track expenses by categories like Rent, Food, Shopping, Entertainment, and Others  
 - Visualize expense breakdown by category and by month  
-- Easily extendable and customizable  
+- Easily extendable and customizable
+- Implemented structured logging for easier debugging and monitoring
+- Included unit tests for backend to ensure reliability 
 - Can be run fully locally on your machine
 
 ## 🚀 How to Run Locally  
@@ -40,7 +42,7 @@ An interactive expense tracking system built with **Streamlit** for the frontend
 
 - **frontend/**: Contains the Streamlit application code.
 - **backend/**: Contains the FastAPI backend server code.
-- **tests/**: Contains the test cases for both frontend and backend.
+- **tests/**: Contains the test cases for backend.
 - **requirements.txt**: Lists the required Python packages.
 - **README.md**: Provides an overview and instructions for the project.
 
