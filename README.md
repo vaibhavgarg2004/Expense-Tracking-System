@@ -1,4 +1,4 @@
-# Expense Management System
+# Expense Tracking System
 
 An interactive expense tracking system built with **Streamlit** for the frontend and **FastAPI** for the backend. This tool allows users to:
 
@@ -24,7 +24,7 @@ An interactive expense tracking system built with **Streamlit** for the frontend
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/vaibhavgarg2004/Expense-Tracking-System.git
-   cd expense-management-system
+   cd Expense-Tracking-System
    ```
 2. **Install dependencies**:   
    ```commandline
