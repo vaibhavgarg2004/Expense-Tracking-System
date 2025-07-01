@@ -7,7 +7,7 @@ An interactive expense tracking system built with **Streamlit** for the frontend
 - 📆 Analyze monthly expense trends
 
 ## 🎥 Presentation
-Watch the full project presentation here: **[Expense Tracking System](https://vaibhav-projects.my.canva.site/expense-tracking-system)**
+Watch the full project presentation here: **[Expense Tracking System Presentation](https://vaibhav-projects.my.canva.site/expense-tracking-system)**
 
 ## 🛠 Features  
 - User-friendly web interface built with Streamlit  
