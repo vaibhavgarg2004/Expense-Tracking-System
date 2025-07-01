@@ -4,7 +4,10 @@ An interactive expense tracking system built with **Streamlit** for the frontend
 
 - 📝 Add and update daily expenses by category  
 - 📊 View detailed analytics by expense category  
-- 📆 Analyze monthly expense trends 
+- 📆 Analyze monthly expense trends
+
+## 🎥 Presentation
+Watch the full project presentation here: **[Expense Tracking System](https://vaibhav-projects.my.canva.site/expense-tracking-system)**
 
 ## 🛠 Features  
 - User-friendly web interface built with Streamlit  
