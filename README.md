@@ -82,5 +82,5 @@ Here are some screenshots of the application in action:
 ![Monthly Analytics](Analytics-By-Month-Tab.png)
 
 ---
-Built with ❤️ using Streamlit and FastAPI
+Spend wiser. Track expenses effortlessly.
 
