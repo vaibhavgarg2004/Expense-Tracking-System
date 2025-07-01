@@ -82,5 +82,5 @@ Here are some screenshots of the application in action:
 ![Monthly Analytics](Analytics-By-Month-Tab.png)
 
 ---
-Spend wiser. Track expenses effortlessly.
+*Spend wiser. Track expenses effortlessly.*
 
