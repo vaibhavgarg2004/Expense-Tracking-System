@@ -1,4 +1,4 @@
-# Expense Tracking System
+# 🧾 Expense Tracking System
 
 An interactive expense tracking system built with **Streamlit** for the frontend and **FastAPI** for the backend. This tool allows users to:
 
