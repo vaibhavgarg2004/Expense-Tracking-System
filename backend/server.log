@@ -202,3 +202,14 @@
 2025-06-03 01:25:29,749 - db_helper - INFO - insert_expense called with date: 2024-08-05, amount: 100.0, category: Shopping, notes: Books
 2025-06-03 01:25:29,765 - db_helper - INFO - insert_expense called with date: 2024-08-05, amount: 15.0, category: Other, notes: Miscellaneous
 2025-06-03 01:25:31,819 - db_helper - INFO - fetch_expense_summary_by_months
+2025-06-24 00:31:42,934 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-01
+2025-06-24 00:31:45,258 - db_helper - INFO - fetch_expense_summary_by_months
+2025-06-24 00:32:04,628 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-06
+2025-06-24 00:32:06,726 - db_helper - INFO - fetch_expense_summary_by_months
+2025-06-24 00:32:15,208 - db_helper - INFO - fetch_expenses_for_date called with 2024-08-06
+2025-06-24 00:32:17,282 - db_helper - INFO - delete_expenses_for_date called with 2024-08-06
+2025-06-24 00:32:17,310 - db_helper - INFO - insert_expense called with date: 2024-08-06, amount: 30.0, category: Food, notes: Breakfast
+2025-06-24 00:32:17,326 - db_helper - INFO - insert_expense called with date: 2024-08-06, amount: 100.0, category: Shopping, notes: Shoes
+2025-06-24 00:32:17,339 - db_helper - INFO - insert_expense called with date: 2024-08-06, amount: 80.0, category: Entertainment, notes: Movies
+2025-06-24 00:32:17,354 - db_helper - INFO - insert_expense called with date: 2024-08-06, amount: 15.0, category: Other, notes: Public transport
+2025-06-24 00:32:19,419 - db_helper - INFO - fetch_expense_summary_by_months
