@@ -27,12 +27,33 @@ Watch the full project presentation here: **[Expense Tracking System Presentatio
 
 ## 📂 Project Structure
 
-- **frontend/**: Contains the Streamlit application code.
-- **backend/**: Contains the FastAPI backend server code.
-- **database/**: Contains the SQLite database file for the application.
-- **tests/**: Contains the test cases for backend.
-- **requirements.txt**: Lists the required Python packages.
-- **README.md**: Provides an overview and instructions for the project.
+```
+Expense-Tracking-System/
+│
+├── frontend/  
+│   ├── add_update.py              # Streamlit component for adding/updating expenses  
+│   ├── analytics_by_category.py   # Streamlit component for category-wise analysis  
+│   ├── analytics_by_months.py     # Streamlit component for monthly analysis  
+│   └── app.py                     # Main Streamlit app entry point  
+│
+├── backend/  
+│   ├── db_helper.py               # MySQL interaction logic  
+│   ├── logging_setup.py           # Logger configuration  
+│   ├── server.py                  # FastAPI application  
+│   └── server.log                 # Runtime logs (can be ignored or added to .gitignore)  
+│
+├── database/  
+│   └── expense_db_creation.sql    # MySQL schema and sample data  
+│
+├── tests/  
+│   ├── conftest.py                # Pytest configuration  
+│   └── backend/  
+│       └── test_db_helper.py      # Unit tests for database helper  
+│
+├── LICENSE                        # Apache License file  
+├── requirements.txt               # Project dependencies  
+└── README.md                      # Project documentation 
+```
 
 ---
 
