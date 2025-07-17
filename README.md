@@ -6,8 +6,12 @@ An interactive expense tracking system built with **Streamlit** for the frontend
 - 📊 View detailed analytics by expense category  
 - 📆 Analyze monthly expense trends
 
+---
+
 ## 🎥 Presentation
 Watch the full project presentation here: **[Expense Tracking System Presentation](https://vaibhav-projects.my.canva.site/expense-tracking-system)**
+
+---
 
 ## 🛠 Features  
 - User-friendly web interface built with Streamlit  
@@ -18,6 +22,19 @@ Watch the full project presentation here: **[Expense Tracking System Presentatio
 - Implemented structured logging for easier debugging and monitoring
 - Included unit tests for backend to ensure reliability 
 - Can be run fully locally on your machine
+
+---
+
+## 📂 Project Structure
+
+- **frontend/**: Contains the Streamlit application code.
+- **backend/**: Contains the FastAPI backend server code.
+- **database/**: Contains the SQLite database file for the application.
+- **tests/**: Contains the test cases for backend.
+- **requirements.txt**: Lists the required Python packages.
+- **README.md**: Provides an overview and instructions for the project.
+
+---
 
 ## 🚀 How to Run Locally  
 ### Prerequisites:  
@@ -59,14 +76,7 @@ Watch the full project presentation here: **[Expense Tracking System Presentatio
     streamlit run frontend/app.py
    ```
 
-## 📂 Project Structure
-
-- **frontend/**: Contains the Streamlit application code.
-- **backend/**: Contains the FastAPI backend server code.
-- **database/**: Contains the SQLite database file for the application.
-- **tests/**: Contains the test cases for backend.
-- **requirements.txt**: Lists the required Python packages.
-- **README.md**: Provides an overview and instructions for the project.
+---
 
 ## 🖼️ Project Snapshots
 
@@ -82,5 +92,11 @@ Here are some screenshots of the application in action:
 ![Monthly Analytics](Analytics-By-Month-Tab.png)
 
 ---
+
+## 📄 License
+This project is licensed under the **Apache License 2.0**. See the [LICENSE](./LICENSE) file for details.
+
+---
+
 *Spend wiser. Track expenses effortlessly.*
 
